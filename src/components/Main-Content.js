@@ -5,6 +5,8 @@ import nature2 from "../assets/card/card2.jpg";
 import nature3 from "../assets/card/card3.jpg";
 import CardBeautiful from "./CardsBeautiful";
 import imageNature from "../assets/card/imageNature.jpg";
+import CardNature from "./CardNature";
+import ObjectNature from "./ObjectStateNature";
 
 const MainContent = () => {
   const text1 = "Alam yang sangat indah akan pemandangan nya,membuat kita menatap terkagum saat akan melihatnya";
@@ -40,7 +42,13 @@ const MainContent = () => {
             <CardBeautiful imageNature={imageNature} />
           </div>
         </div>
+
+        <div className="row">
+          <CardNature />
+        </div>
       </div>
+
+      <ObjectNature />
     </div>
   );
 };

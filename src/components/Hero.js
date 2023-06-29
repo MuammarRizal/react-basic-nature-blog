@@ -2,6 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 import hero1 from "../assets/hero/hero1.jpg";
 import hero2 from "../assets/hero/hero2.jpg";
 import hero3 from "../assets/hero/hero3.jpg";
+
 const Hero = () => {
   return (
     <Carousel>
